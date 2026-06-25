@@ -2,6 +2,8 @@
 
 SVG Animator is a single-file browser app for turning static SVG diagrams into step-by-step animations. It runs entirely in the browser from `svg-animator.html`: no build step, server, or backend is required.
 
+[Run SVG Animator](https://html-preview.github.io/?url=https://github.com/loretoparisi/svganimator/blob/main/svg-animator.html)
+
 ## Features
 
 - Load an SVG file by drag and drop, file picker, or the built-in demo diagram.
