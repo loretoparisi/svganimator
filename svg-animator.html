@@ -19,6 +19,8 @@
   #controls{position:fixed;left:0;right:0;bottom:0;height:64px;background:var(--surface);border-top:2px solid var(--border);display:flex;align-items:center;gap:10px;padding:0 16px;z-index:100;}
 
   .logo{font-family:'Syne',sans-serif;font-weight:800;font-size:16px;color:var(--accent);display:flex;align-items:center;gap:7px;}
+  .logo a{color:inherit;text-decoration:none;}
+  .logo a:hover{text-decoration:underline;text-underline-offset:3px;}
   .logo-sq{width:24px;height:24px;background:linear-gradient(135deg,var(--accent),var(--accent2));border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:12px;}
   .rec-pill{display:flex;align-items:center;gap:5px;padding:2px 9px;border-radius:20px;background:rgba(239,68,68,.1);border:1px solid rgba(239,68,68,.3);color:var(--danger);font-size:10px;font-weight:700;opacity:0;transition:opacity .3s;}
   .rec-pill.on{opacity:1;}
@@ -107,7 +109,7 @@
 <body>
 
 <div id="hdr">
-  <div class="logo"><div class="logo-sq">▶</div>SVG Animator</div>
+  <div class="logo"><div class="logo-sq">▶</div>SVG Animator<a href="https://github.com/loretoparisi" target="_blank" rel="noopener noreferrer"> - loretoparisi</a></div>
   <div style="display:flex;align-items:center;gap:10px;">
     <div class="kbhints">
       <span class="kb"><span class="kk">Space</span> play</span>
