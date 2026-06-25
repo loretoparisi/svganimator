@@ -33,10 +33,11 @@ Core playback works in modern desktop browsers with SVG and Canvas support. Vide
 
 ```text
 .
-├── README.md
-└── svg-animator.html
+|-- LICENSE
+|-- README.md
+`-- svg-animator.html
 ```
 
 ## License
 
-No license has been added yet.
+MIT License. See `LICENSE`.
